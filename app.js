@@ -62,7 +62,7 @@ function templateAPropos(racine){
         zoneAPropos.innerHTML+=`
         <div class="flex justify-center">
             <img src="images/${e.picto}" alt="Icon carte">
-            <p>Ambiances immersives dans des décors soigneusement conçus</p>
+            <p>${e.texte}</p>
         </div>
         `
     })
